@@ -2,7 +2,11 @@
   "name": "calculator-ios",
   "private": true,
   "version": "0.0.0",
+  "author": "Anand Raja",
   "type": "module",
+  "description": "It's simple calculator using JS and Vite.",
+  "license": "MIT",
+  "homepage": "http://actionanand.github.io/calculator-ios",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
