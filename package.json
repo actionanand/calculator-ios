@@ -4,15 +4,18 @@
   "version": "0.0.0",
   "author": "Anand Raja",
   "type": "module",
-  "description": "It's simple calculator using JS and Vite.",
+  "description": "It's a simple calculator app using JS and Vite.",
   "license": "MIT",
   "homepage": "http://actionanand.github.io/calculator-ios",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "vite": "^3.0.7"
   }
 }
