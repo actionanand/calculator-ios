@@ -8,6 +8,13 @@
 yarn dev
 ```
 
+## Setting up a new vite env
+
+```bash
+npm create vite@latest
+```
+
+
 ## Resources
 
 1. [Vite 3.0 vs. Create React App: Comparison and migration guide](https://blog.logrocket.com/vite-3-vs-create-react-app-comparison-migration-guide/)
